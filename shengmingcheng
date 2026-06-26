@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>广西盛名诚新材料有限公司 - 运动场地工程施工</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft YaHei",sans-serif;}
+/* 头部标题 */
+.top-title{width:100%;padding:20px 8%;background:#113366;color:#fff;font-size:28px;font-weight:bold;}
+/* 导航栏 */
+.nav{width:100%;background:#194080;padding:0 8%;}
+.nav ul{display:flex;list-style:none;}
+.nav li{padding:16px 22px;cursor:pointer;transition:0.3s;}
+.nav li a{color:#fff;text-decoration:none;font-size:16px;}
+.nav li:hover{background:#0f2c59;}
+/* 轮播大图 */
+.banner{width:100%;height:420px;overflow:hidden;}
+.banner img{width:100%;height:100%;object-fit:cover;}
+/* 产品板块 */
+.product-wrap{width:84%;margin:50px auto;}
+.product-title{font-size:24px;color:#113366;border-left:5px solid #113366;padding-left:12px;margin-bottom:30px;}
+.product-list{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;}
+.product-item{border:1px solid #eee;padding:15px;text-align:center;}
+.product-item img{width:100%;height:200px;object-fit:cover;margin-bottom:12px;}
+.product-item p{font-size:16px;color:#333;}
+/* 关于我们板块 */
+.about-wrap{width:84%;margin:60px auto;}
+.about-block{margin-bottom:40px;}
+.about-block h3{font-size:22px;color:#113366;margin-bottom:15px;padding-bottom:8px;border-bottom:2px solid #194080;}
+.about-block p{line-height:1.8;color:#555;font-size:15px;}
+/* 工程案例 */
+.case-wrap{width:84%;margin:60px auto;}
+.case-title{font-size:24px;color:#113366;border-left:5px solid #113366;padding-left:12px;margin-bottom:30px;}
+.case-list{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.case-item{height:180px;border:1px solid #eee;overflow:hidden;}
+.case-item img{width:100%;height:100%;object-fit:cover;}
+/* 新闻动态 */
+.news-wrap{width:84%;margin:60px auto;}
+.news-title{font-size:24px;color:#113366;border-left:5px solid #113366;padding-left:12px;margin-bottom:30px;}
+.news-item{padding:10px 0;border-bottom:1px dashed #ddd;}
+.news-item a{color:#333;text-decoration:none;}
+.news-item a:hover{color:#194080;}
+/* 底部联系栏 */
+.footer{width:100%;background:#113366;color:#fff;padding:40px 8%;margin-top:80px;}
+.footer h4{font-size:20px;margin-bottom:20px;}
+.footer p{line-height:2;font-size:15px;}
+</style>
+</head>
+<body>
+<!-- 顶部公司名称 -->
+<div class="top-title">广西盛名诚新材料有限公司</div>
+
+<!-- 导航菜单 -->
+<div class="nav">
+    <ul>
+        <li><a href="#home">网站首页</a></li>
+        <li><a href="#product">产品中心</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#case">工程案例</a></li>
+        <li><a href="#news">新闻动态</a></li>
+        <li><a href="#contact">联系我们</a></li>
+    </ul>
+</div>
+
+<!-- 首页轮播 -->
+<section class="banner" id="home">
+    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="运动场工程banner">
+</section>
+
+<!-- 产品中心 -->
+<section class="product-wrap" id="product">
+    <h2 class="product-title">产品中心</h2>
+    <div class="product-list">
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>硅PU球场</p>
+        </div>
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>EPDM塑胶跑道</p>
+        </div>
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>丙烯酸球场</p>
+        </div>
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>彩色步道地面</p>
+        </div>
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>运动场划线工程</p>
+        </div>
+        <div class="product-item">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+            <p>旧场地翻新改造</p>
+        </div>
+    </div>
+</section>
+
+<!-- 关于我们 -->
+<section class="about-wrap" id="about">
+    <div class="about-block">
+        <h3>公司简介 COMPANY PROFILE</h3>
+        <p>广西盛名诚新材料有限公司专注各类运动场地整体施工建设，主营硅PU球场、丙烯酸场地、EPDM塑胶跑道、公园步道、旧场地翻新划线等工程。拥有专业施工团队、全套施工设备，材料环保达标，资质齐全，面向学校、小区、公园、企事业单位全国上门勘测，包工包料一站式落地服务。多年运动场施工经验，品质稳定，售后完善。</p>
+    </div>
+    <div class="about-block">
+        <h3>企业文化 CORPORATE CULTURE</h3>
+        <p>公司坚持诚信为本、品质为先的经营理念，严控原材料质量与施工工艺，以高标准打造每一块运动场地，致力于为客户提供安全、环保、耐用的地坪工程解决方案。</p>
+    </div>
+    <div class="about-block">
+        <h3>荣誉资质 COMPANY QUALIFICATION</h3>
+        <p>具备运动场地施工全套资质，环保材料检测报告、工程安全施工证书、多年大型学校/社区场地完工案例，可承接各类政府采购、校园改造项目。</p>
+    </div>
+</section>
+
+<!-- 工程案例 -->
+<section class="case-wrap" id="case">
+    <h2 class="case-title">工程案例 CASE</h2>
+    <div class="case-list">
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+        <div class="case-item"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"></div>
+    </div>
+</section>
+
+<!-- 新闻动态 -->
+<section class="news-wrap" id="news">
+    <h2 class="news-title">新闻动态 NEWS</h2>
+    <div class="news-item"><a href="#">硅PU球场施工前地面基础处理注意事项</a></div>
+    <div class="news-item"><a href="#">塑胶跑道环保材料检测标准说明</a></div>
+    <div class="news-item"><a href="#">学校运动场翻新施工流程介绍</a></div>
+    <div class="news-item"><a href="#">丙烯酸球场防晒、防开裂维护技巧</a></div>
+    <div class="news-item"><a href="#">广西小区户外步道工程完工案例分享</a></div>
+</section>
+
+<!-- 底部联系我们 -->
+<footer class="footer" id="contact">
+    <h4>广西盛名诚新材料有限公司</h4>
+    <p>公司地址：南宁市友谊路48-6号20栋四层406、407室<br>
+联系电话：19177197967<br>
+业务范围：全广西及全国硅PU球场、塑胶跑道、运动地坪工程施工<br>
+邮箱：1046880407@qq.com</p>
+</footer>
+</body>
+</html>
