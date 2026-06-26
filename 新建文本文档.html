@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>建筑工程 - 官网模板</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap:10px;
+            font-size:26px;
+            font-weight:bold;
+            color:#222;
+        }
+        .logo-circle {
+            width:40px;
+            height:40px;
+            border:2px solid #224488;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:#224488;
+        }
+        nav ul {
+            display:flex;
+            gap:36px;
+            list-style:none;
+        }
+        nav a {
+            text-decoration:none;
+            color:#333;
+            font-size:15px;
+        }
+        .banner {
+            width:100%;
+            height:280px;
+            background: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3') center/cover no-repeat;
+        }
+        .container {
+            padding:40px 5%;
+        }
+        .service-grid {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:12px;
+        }
+        .service-box-blue {
+            background-color:#0066dd;
+            color:#fff;
+            padding:60px 30px;
+            font-size:28px;
+            line-height:1.8;
+        }
+        .service-card {
+            position:relative;
+            height:220px;
+            overflow:hidden;
+        }
+        .service-card img {
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+        .service-card .text {
+            position:absolute;
+            bottom:0;
+            width:100%;
+            text-align:center;
+            color:#fff;
+            padding:8px;
+            background:rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <div class="logo-circle">建</div>
+        <span>建筑工程</span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">服务项目</a></li>
+            <li><a href="#">工程案例</a></li>
+            <li><a href="#">新闻动态</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="banner"></div>
+
+<div class="container">
+    <div class="service-grid">
+        <div class="service-box-blue">
+            &gt;服务项目<br>
+            &gt;SERVICE
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482" alt="玻璃幕墙">
+            <div class="text">玻璃幕墙</div>
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1518002171953-a080ee8177f1" alt="石材幕墙">
+            <div class="text">石材幕墙</div>
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1604713027283-36d3e31b35f8" alt="铝板幕墙">
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1564594736624-def7a10ab04e" alt="采光顶工程">
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d312a672a2" alt="门窗工程">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
